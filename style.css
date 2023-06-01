@@ -1,0 +1,265 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+}
+
+body {
+    background: rgb(65,131,77);
+    background: radial-gradient(circle, rgba(65,131,77,1) 38%, rgba(41,47,42,1) 89%, rgba(16,17,16,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  header {
+width: 100%;
+height: 100px;
+background-color: black;
+box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
+-webkit-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
+-moz-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-logo {
+  margin-top: 10px;
+  border-radius: 1rem;
+  box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
+-webkit-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
+-moz-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
+}
+
+.navbar-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-li{
+  background: linear-gradient(171deg, rgba(74,201,59,1) 38%, rgba(41,47,42,1) 89%);
+   padding: 10px;
+   border-radius: 1rem;
+}
+
+  main {
+    margin-top: 40px;
+    padding: 50px;
+  }
+
+  .hero {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+  .hero_logo {
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+  }
+
+.hero_nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+  
+  .eagles-logo {
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  .hero-h2 {
+    background: rgb(34,193,195);
+    background: linear-gradient(197deg, rgba(34,193,195,1) 27%, rgba(19,243,11,1) 62%, rgba(9,246,227,1) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 30px;
+  }
+
+  .hero-h3 {
+    color: rgb(39, 37, 37);
+    background-color: rgb(208, 208, 168);
+    padding: 10px;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(5, 101, 35);
+  }
+
+  .hero-strong {
+    color: whitesmoke;
+  }
+
+  .uniforms-h3 {
+    background: linear-gradient(171deg, rgba(74,201,59,1) 38%, rgba(41,47,42,1) 89%);
+    margin: 60px;
+    width: 20%;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uniforms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .uniforms-uniforms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    
+  }
+
+  .uniforms__local {
+    background: rgb(206,238,208);
+background: linear-gradient(197deg, rgba(206,238,208,1) 0%, rgba(64,203,38,1) 100%);
+    color: rgb(18, 19, 18);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 1rem;
+    align-items: center;
+    text-decoration: underline;
+  }
+
+  .uniforms__visita { 
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 1rem;
+    align-items: center;
+    text-decoration: underline;
+
+  }
+
+
+  .uniforms__especial {
+    background-color:white;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 1rem;
+    align-items: center;
+    text-decoration: underline;
+  }
+
+  .jugadores_h3 {
+    background: linear-gradient(171deg, rgba(74,201,59,1) 38%, rgba(41,47,42,1) 89%);
+    font-size: 30px;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    }
+
+     .jugadores {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+      gap: 200px;
+      padding-top: 50px;
+     }
+
+     .jugadores_jalen, .jugadores_devonta , .jugadores_kelce, .jugadores_dallas {
+      height: 200px;
+      width: 200px;
+      background-color: aqua;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-style: solid;
+      border-width: 2px;
+      border-color: rgb(99, 132, 99);
+     }
+
+  .jugadores_edad {
+    display: flex; 
+    justify-content: space-between;
+    gap: 30px;
+    margin: 10px;
+  }
+
+  .jugadores_posicion {
+    display: flex; 
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  .img_jalen, .img-kelce, .img-davante, .img-dallas{
+    border-radius: 1rem;
+    margin: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(21, 22, 21);
+    background: rgb(74,201,59);
+    background: linear-gradient(171deg, rgba(74,201,59,1) 38%, rgba(41,47,42,1) 89%);
+    
+  }
+  .jugadores_jalen, .jugadores_kelce, .jugadores_devonta, .jugadores_dallas {
+    background: rgb(89,204,97);
+    background: linear-gradient(197deg, rgba(89,204,97,1) 20%, rgba(110,173,185,1) 100%);
+  }
+
+
+  .ul_foot {
+    display: flex; 
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px;
+    color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    background: rgb(74,201,59);
+    background: radial-gradient(circle, rgba(74,201,59,1) 87%, rgba(43,57,43,1) 100%, rgba(41,47,47,1) 100%);
+
+  }
+
+
+
+  .historia {
+   
+  }
+
+
+  @media (max-width: 900px) {
+    .uniforms-h3 {
+      color: black;
+    }
+    
+  }
