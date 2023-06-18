@@ -6,6 +6,52 @@
         list-style-type: none;
 }
 
+header {
+  background: black;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  box-shadow: 3px 10px 17px 0px rgba(38,139,35,0.94);
+-webkit-box-shadow: 3px 10px 17px 0px rgba(38,139,35,0.94);
+-moz-box-shadow: 3px 10px 17px 0px rgba(38,139,35,0.94);
+}
+
+.navbar-ul {
+  display: flex;
+  gap: 80px;
+}
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar i {
+font-size: 30px;
+display: none;
+color: aliceblue;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+.navbar-li {
+color: black;
+background: rgb(74,201,59);
+background: radial-gradient(circle, rgba(74,201,59,1) 87%, rgba(43,57,43,1) 100%, rgba(41,47,47,1) 100%);
+padding: 10px;
+border-radius: 1rem;
+
+}
+
+.navbar-logo {
+  border-radius: 1rem;
+}
+
 body {
     background: rgb(65,131,77);
     background: radial-gradient(circle, rgba(65,131,77,1) 38%, rgba(41,47,42,1) 89%, rgba(16,17,16,1) 100%);
@@ -14,43 +60,6 @@ body {
     justify-content: center;
     flex-direction: column;
   }
-
-  header {
-width: 100%;
-height: 100px;
-background-color: black;
-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
--webkit-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
--moz-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
-}
-
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.navbar-logo {
-  margin-top: 10px;
-  border-radius: 1rem;
-  box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
--webkit-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
--moz-box-shadow: 0px 37px 51px 0px rgba(61,104,45,0.91);
-}
-
-.navbar-ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 40px;
-}
-
-.navbar-li{
-  background: linear-gradient(171deg, rgba(74,201,59,1) 38%, rgba(41,47,42,1) 89%);
-   padding: 10px;
-   border-radius: 1rem;
-}
 
   main {
     margin-top: 40px;
@@ -252,14 +261,303 @@ background: linear-gradient(197deg, rgba(206,238,208,1) 0%, rgba(64,203,38,1) 10
 
 
 
-  .historia {
-   
+.hero-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  
+}
+
+  .historia-titulo {
+    background: rgb(34,193,195);
+    background: linear-gradient(197deg, rgba(34,193,195,1) 27%, rgba(19,243,11,1) 62%, rgba(9,246,227,1) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 20px;
+    padding: 15px;
+    text-shadow: 4px 4px 2px rgba(43,54,48,0.6);
+    font-size: 50px;
   }
 
+  .historia-p {
+    text-align: justify;
+    padding: 20px;
+    border-radius: 1rem;
+    background: linear-gradient(171deg, rgba(74,201,59,1) 38%, rgba(41,47,42,1) 89%);;
+  
+  }
+
+.historia-p::first-letter {
+ color: rgb(5, 101, 35);
+ font-weight: 900;
+ font-size: 40px;
+}
+
+  .historia {
+    padding: 50px;
+  }
+
+  #rivalidades {
+    width: 80%;
+    display: flex;
+   gap: 20px;
+   justify-content: space-around;
+   margin-top: 30px;
+   margin-bottom: 50px;
+  }
+
+  .rivalidades-titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    background: linear-gradient(171deg, rgba(74,201,59,1) 38%, rgba(41,47,42,1) 89%);;
+    padding: 20px;  
+    border-radius: 1rem;
+    border-style: solid;
+
+  }
+
+
+.giants, .cowboys, .commanders, .steelers {
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background: rgb(74,201,59);
+  background: linear-gradient(197deg, rgba(74,201,59,1) 16%, rgba(20,191,191,1) 100%);
+  gap: 20px;
+  border-radius: 1rem;
+  border: solid;
+}
+
+.giants-ul, .cowboys-ul, .comanders-ul, .steelers-p {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.giants-img, .cowboys-img, .commanders-img, .steelers-img {
+  border-color: blue;
+  border-style: solid;
+  border-radius: 1rem;
+  padding: 10px;
+  background-color: black
+}
+
+.giants-h4, .cowboys-h4, .commanders-h4, .steelers-h4, .estadio-h4 {
+  text-decoration: underline;
+  color: blue;
+  font-size: 20px;
+} 
+
+.estadio-h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  background: linear-gradient(171deg, rgba(74,201,59,1) 38%, rgba(41,47,42,1) 89%);;
+  padding: 20px;  
+  border-radius: 1rem;
+  border-style: solid;
+  color: black;
+}
+
+
+.estadio {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.estadio-img {
+  border-radius: 1rem;
+  border-style: solid;
+}
+
+.estadio-p {
+  background: rgb(74,201,59);
+  background: linear-gradient(197deg, rgba(74,201,59,1) 16%, rgba(20,191,191,1) 100%);
+  border-radius: 1rem;
+  border: solid;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+/*index 3*/ 
+
+.reglas-hero {
+  width: 75%;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.reglas-h2 {
+  background: rgb(34,193,195);
+  background: linear-gradient(197deg, rgba(34,193,195,1) 27%, rgba(19,243,11,1) 62%, rgba(9,246,227,1) 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 30px;
+  padding: 15px;
+  text-shadow: 4px 4px 2px rgba(43,54,48,0.6);
+}
+
+
+.reglas-hero {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.reglas-objetivo, .equipos, .campo, .pelota, .puntuacion {
+  background: rgb(74,201,59);
+  background: linear-gradient(197deg, rgba(74,201,59,1) 16%, rgba(20,191,191,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 1rem;
+  border: solid;
+}
+
+.campo-img, .pelota-img {
+  border-radius: 1rem;
+  border: solid;
+  color: black;
+}
+
+.sus-h1 {
+  background: rgb(34,193,195);
+  background: linear-gradient(197deg, rgba(34,193,195,1) 27%, rgba(19,243,11,1) 62%, rgba(9,246,227,1) 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 30px;
+  padding: 15px;
+  text-shadow: 4px 4px 2px rgba(43,54,48,0.6);
+}
+
+.sus-h2 {
+  margin: 20px;
+  padding: 20px;
+  background: rgb(74,201,59);
+  background: linear-gradient(197deg, rgba(74,201,59,1) 16%, rgba(20,191,191,1) 100%);
+  border-radius: 1rem;
+}
+.form {
+  background: rgb(74,201,59);
+  background: linear-gradient(197deg, rgba(74,201,59,1) 16%, rgba(20,191,191,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 1rem;
+  border: solid;
+
+}
 
   @media (max-width: 900px) {
-    .uniforms-h3 {
-      color: black;
-    }
-    
+  .navbar-ul {
+width: 100%;
+height: 300px;
+position: absolute;
+top: 85px;
+left: 0;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+display: none;
   }
+
+  .navbar i {
+    display: block;
+   }
+  
+  
+   #toggle-menu:checked ~ .navbar-ul{
+  display: flex;
+  background: rgb(206,238,208);
+  background: linear-gradient(197deg, rgba(206,238,208,1) 0%, rgba(64,203,38,1) 100%);
+  align-items: center;
+  border-radius: 1rem;
+   }
+   
+
+ .hero {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  }
+
+.hero_logo {
+  height: 200px;
+}
+.hero_nosotros {
+  width: 100%;
+  text-align: justify;
+}
+
+.uniforms-h3 {
+ font-size: 20px;
+  width: 100px;
+}
+
+.uniforms-uniforms {
+  display: flex;
+  flex-direcstion: column;
+}
+
+.jugadores_h3 {
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.jugadores {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.historia-titulo {
+  font-size: 50px;
+}
+
+#rivalidades {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.giants, .cowboys, .commanders, .steelers {
+  width: 50%;
+text-align: center;
+}
+
+.reglas-objetivo, .equipos, .campo, .pelota, .puntuacion {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nombre, .apellido, .email {
+display: flex;
+flex-direction: column;
+
+}
